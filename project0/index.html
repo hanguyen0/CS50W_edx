@@ -1,10 +1,38 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Ha Nguyen</title>
-    </head>
-    <body>
-    	Hello, world!
-        Change something in master branch
-    </body>
+	<head>
+		<title>Ha Nguyen</title>
+
+		<style type="text/css">
+			input[type=text] {
+				background-color: red;
+			}
+
+			input[type=number] {
+				background-color: yellow;
+			}
+
+			button:hover {
+				background-color: orange;
+			}
+
+		</style>
+	</head>
+	<body>
+		Hello, world!
+		Change something in master branch
+		<a href="second.html">Go to second page</a>
+
+		<form>
+			<input type="text" placeholder="First Name" name="name">
+			<input type="text" placeholder="Last Name" name="name">
+			<input type="number" placeholder="Age" name="age">
+			<input name="country" list="countries" placeholder="Country">
+			<datalist id="countries">
+				<option value="Afghanistan">
+				<option value="Albania">
+			</datalist>
+		</form>
+		<button>Click me!</button>
+	</body>
 </html>
